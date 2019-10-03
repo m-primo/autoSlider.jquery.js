@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>Auto Slider Example Structure Page</title>
+</head>
+<body>
+
+<div class="slider">
+    <div class="slider-content">
+        <div class="active">
+            <q>Thank you, your website is great.</q>
+            <p>John</p>
+        </div>
+        <div>
+            <q>Nice.</q>
+            <p>Michael</p>
+        </div>
+        <div>
+            <q>Well done, i like your projects.</q>
+            <p>Mikhael</p>
+        </div>
+        <div>
+            <q>i gave them 5 out of 5.</q>
+            <p>Saif</p>
+        </div>
+        <div>
+            <q>Hello, thank you for your work for me.</q>
+            <p>Andro</p>
+        </div>
+    </div>
+    <div class="currentIndex">1/1</div>
+    <div class="notAuto-content">
+        <button class="back-btn" onclick="autoSlider.GoBack();"><<< Back</button>
+        <button class="index-btn" onclick="autoSlider.GoSlide(2);">Slide [2]</button>
+        <ul class="all-slides"></ul>
+        <button class="index-btn" onclick="autoSlider.GoSlide(4);">Slide [4]</button>
+        <button class="next-btn" onclick="autoSlider.GoNext();">Next >>></button>
+    </div>
+</div>
+
+<script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+<script src="autoSlider.jquery.js"></script>
+<script>
+// Customize the plugin
+autoSlider.selector = '.slider'; // the selector of the slider, default: '.autoSlider'
+autoSlider.interval = 2500; // the interval time in ms to go to the next slide, default: 3000
+autoSlider.fade = 500; // the fade time in ms, default: 1000
+autoSlider.isAuto = true; // make this (false) to enable the next&previous buttons, default: true
+// Trigger the plugin
+autoSlider.init();
+</script>
+
+</body>
+</html>
