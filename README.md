@@ -14,7 +14,7 @@ Version [2].
    
 -------------------------------------------------
 
-* PLEASE CHECK THE EXAMPLE PAGE FOR MORE DETAILS.
+### PLEASE CHECK THE EXAMPLE PAGE FOR MORE DETAILS.
 
 -------------------------------------------------
 
