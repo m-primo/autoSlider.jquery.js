@@ -27,13 +27,22 @@ https://m-primo.github.io/autoSlider.jquery.js/autoslider.html
 -------------------------------------------------
 
 [Oct 10, 2019]
+
 © 2019 - Developed by Primo.
+
 Open-Source - MIT License.
+
 https://opensource.org/licenses/MIT
+
 https://github.com/m-primo/autoSlider.jquery.js
+
 https://primodpd.blogspot.com
+
 https://mp-primo.blogspot.com
+
 https://mp-primo.blogspot.com/primo
+
 https://mp-primo.blogspot.com/primodpd
+
 
 -------------------------------------------------
